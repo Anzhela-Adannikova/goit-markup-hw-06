@@ -36,13 +36,82 @@
                     <a class="addr-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address> 
+        <button class="burger-btn" type="button">
+            <svg class="burger-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+        </button>
+        </div>
+
+        <!-- ===========#region mobile-menu============= -->
+        
+        <div class="mobile-menu is-open">
+            <div class="mobile-menu-container">
+                <button class="mobile-menu-close">
+                    <svg class="icon-close" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>                 
+                <nav class="mobile-menu-nav">
+                    <li class="mobile-nav-item">
+                        <a class="mobile-nav-item-link current" href="./index.html">Studio</a></li>
+                    <li class="mobile-nav-item">
+                        <a class="mobile-nav-item-link" href="">Portfolio</a></li>
+                    <li class="mobile-nav-item">
+                        <a class="mobile-nav-item-link" href="">Contacts</a></li>
+                </nav>
+                <address>
+                    <ul class="mobile-addr-list">
+                        <li class="mobile-addr-iten">
+                            <a class="mobile-addr-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="mobile-addr-iten"> 
+                            <a class="mobile-addr-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+
+                <div class="cont-footer-icon">
+                        <ul class="icon-list">
+                        <li class="item-icon">
+                        <a href="#" class="icon-link">
+                        <svg width="24" height="24" class="our-icons">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                        </li>
+                        <li class="item-icon">
+                            <a href="#" class="icon-link">
+                                <svg width="24" height="24" class="our-icons">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item-icon">
+                            <a href="#" class="icon-link">
+                                <svg width="24" height="24" class="our-icons">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item-icon">
+                            <a href="#" class="icon-link">
+                                <svg width="24" height="24" class="our-icons">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                            </ul>
+                </div>
+            </div>
         </div>  
+        <!-- ===========#endregion mobile-menu============= -->
     </header>
-        <!-- ==================== #endregion Header ==================== -->
-    <main>
+            <!-- ==================== #endregion Header ==================== -->
+    
+    
+            <main>
         <!-- ==================== #region section 1 Order Service ==================== -->
         
-        <section class="order-service">  
+        <section class="hidden order-service">  
             <div class="container container-sec-one">
             
             <h1 class="title-order-service">
@@ -59,7 +128,7 @@
 
          <!-- ==================== #region section 2 Advantages ==================== -->  
         
-         <section class="advantages">
+         <section class="hidden advantages">
             <div class="container container-sec-two">
             <h2 class="visually-hidden">Advantages</h2>
             
@@ -107,7 +176,7 @@
    
         <!-- ==================== #endregion section 2 Advantages ==================== -->
         <!-- ==================== #region section 3 Our Team ==================== -->
-        <section class="our-team">
+        <section class="hidden our-team">
             <div class="container">
                 <h2 class="title-our-team">Our Team</h2>
                 <ul class="our-team-list">
@@ -281,7 +350,7 @@
         </section>
         <!-- ==================== #endregion section 3 Our Team ==================== -->
         <!-- ==================== #region section 4 Our Portfolio ==================== -->
-        <section class="our-portfolio">
+        <section class="hidden our-portfolio">
             <div class="container container-sec-four">
         <h2 class="title-our-portfolio">Our Portfolio</h2>
         
@@ -379,7 +448,7 @@
         <!-- ==================== #endregion section 4 Our Portfolio ==================== -->        
     </main>
         <!-- ==================== #region Footer ==================== -->
-    <footer class="end">
+    <footer class="hidden end">
         <div class="container cont-footer">
         <div class="container-footer">
         <a class="logo logo-footer" href="./index.html">Web<span class="logo-style">Studio</span></a>
@@ -420,7 +489,7 @@
                 </li>
                     </ul>
         </div>
-        <div class="cont-e-mail">
+        <div class="hidden cont-e-mail">
             <p class="title-icon">Subscribe</p>
         <form class="footer-email" name="user-email" autocomplete="off"> 
             <label class="title-icon" for="email">
@@ -439,7 +508,7 @@
         <!-- ==================== #endregion Footer ==================== -->
         
         <!-- ==================== A modal window ======================= -->
-        <div class="backdrop is-open">
+        <div class="hidden backdrop is-open">
     <div class="modal">
         
         <button class="modal-close" type="button">
