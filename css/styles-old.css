@@ -182,22 +182,22 @@
 /*#endregion section 4 Our Portfolio*/
 
 /*#region Footer*/
-.end {
+/* .end {
     background-color: #2e2f42;
     padding: 100px 0;
-}
+} */
 
-.cont-footer {
+/* .cont-footer {
     display: flex;
     align-items: baseline;
-}
+} */
 
-.container-footer {
+/* .container-footer {
     margin-right: 120px;
-}
+} */
 
 
-.logo-footer{
+/* .logo-footer{
    display: inline-block;
     margin-bottom: 16px;
 }
@@ -205,16 +205,16 @@
 footer .logo-style{
     color: #f4f4fd;
 
-}
+} */
 
-.end-about {
+/* .end-about {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-}
+} */
 
 .cont-footer-icon{
     width: 208px;
